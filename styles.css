@@ -15,11 +15,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
-/* -----------for display------------ */
-.container>*{
-    border: 2px solid black;
-}
-/* -----------for display------------ */
+
 /* -----------header start------------ */
 header{
     display: grid;
@@ -118,6 +114,7 @@ li{
 .main-content{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background-color: #eee;
 }
 .main-content .projects{
     grid-row:1/7;
@@ -130,10 +127,23 @@ li{
 }
 
 .projects{
+
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
 }
-.projects .card{
-    width: 400px;
-    height: 300px;
+.card{
+    background-color: #fff;
+    width: 360px;
+    height: 240px;
+    padding: 30px;
+    border-radius: 10px;
+    border-left: 10px solid #FFD124;
+}
+.card p{
+    color: #333;
+    letter-spacing: 1px;
+
 }
