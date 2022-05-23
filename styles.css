@@ -114,3 +114,26 @@ li{
     margin-bottom: 50px;
 }
 /* -----------sidebar end------------ */
+/* -----------main content----------- */
+.main-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.main-content .projects{
+    grid-row:1/7;
+}
+.main-content .announcements{
+    grid-row:1/4;
+}
+.main-content .trendings{
+    grid-row:4/7;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projects .card{
+    width: 400px;
+    height: 300px;
+}
