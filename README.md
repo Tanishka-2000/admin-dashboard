@@ -8,7 +8,7 @@ Through this project I have shown how effective and useful CSS layouts can be fo
 + CSS Flexbox
 
 ## Illustration
-![Image of website](images/admin-dashboard.png)
+![Image of website](https://tanishka-2000.github.io/admin-dashboard/images/admin-dashboard.png)
 
 ## Demo
 Here is the live website [https://tanishka-2000.github.io/admin-dashboard/](https://tanishka-2000.github.io/admin-dashboard/)
